@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/learn-english-words-React/static/css/main.1a3b91c0.css",
+    "main.js": "/learn-english-words-React/static/js/main.1ddb8c14.js",
+    "index.html": "/learn-english-words-React/index.html",
+    "main.1a3b91c0.css.map": "/learn-english-words-React/static/css/main.1a3b91c0.css.map",
+    "main.1ddb8c14.js.map": "/learn-english-words-React/static/js/main.1ddb8c14.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a3b91c0.css",
+    "static/js/main.1ddb8c14.js"
+  ]
+}
