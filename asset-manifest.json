@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/learn-english-words-React/static/css/main.7f40eafa.css",
+    "main.css": "/learn-english-words-React/static/css/main.c773ef12.css",
     "main.js": "/learn-english-words-React/static/js/main.c8196215.js",
     "index.html": "/learn-english-words-React/index.html",
-    "main.7f40eafa.css.map": "/learn-english-words-React/static/css/main.7f40eafa.css.map",
+    "main.c773ef12.css.map": "/learn-english-words-React/static/css/main.c773ef12.css.map",
     "main.c8196215.js.map": "/learn-english-words-React/static/js/main.c8196215.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f40eafa.css",
+    "static/css/main.c773ef12.css",
     "static/js/main.c8196215.js"
   ]
 }
