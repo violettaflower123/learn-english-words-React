@@ -58,18 +58,18 @@ class App extends React.Component {
             <input
               className="input"
               type="text"
+              placeholder="Введите слово на русском"
+              value={this.state.word}
+              onChange={(evt) => this.updateInput("word", evt.target.value)}
+            />
+            <input
+              className="input"
+              type="text"
               placeholder="Введите перевод"
               value={this.state.translation}
               onChange={(evt) =>
                 this.updateInput("translation", evt.target.value)
               }
-            />
-            <input
-              className="input"
-              type="text"
-              placeholder="Введите слово"
-              value={this.state.word}
-              onChange={(evt) => this.updateInput("word", evt.target.value)}
             />
           </div>
           <button className="btn" onClick={() => this.addCard()}>
@@ -82,9 +82,9 @@ class App extends React.Component {
             return (
               <div
                 key={card.id}
-                className={
-                  `card ${card.value.overturned ? "card-translation" : "card-word"}`
-                }
+                className={`card ${
+                  card.value.overturned ? "card-translation" : "card-word"
+                }`}
                 onClick={() => this.turnCard(card.id)}
               >
                 {card.value.overturned

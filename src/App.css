@@ -103,7 +103,8 @@ body {
   transform-style: preserve-3d;
 }
 
-.card-translation, .card-word {
+.card-translation,
+.card-word {
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
 }
@@ -153,4 +154,32 @@ body {
 .tick {
   bottom: 4px;
   right: 4px;
+}
+
+@media screen and (max-width: 460px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .app__title {
+    margin-top: 10%;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .inputs-wrapper {
+    flex-direction: column;
+    row-gap: 15px;
+  }
+
+  .input {
+    width: 250px;
+    min-height: 45px;
+  }
+
+  .btn {
+    width: 250px;
+    min-height: 45px;
+  }
 }
