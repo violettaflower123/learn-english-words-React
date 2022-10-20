@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
+
+#root {
+  background: linear-gradient(to bottom right, #abf2fb, #f1a3c5);
+  width: 100vw;
+  min-height: 110vh;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+body {
+  width: 100vw;
+  min-height: 110vh;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+
+.app__title {
+  font-size: 3rem;
+  font-size: 30px;
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-weight: 600;
+  color: #516091;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background: #ffeffc;
+  opacity: 0.8;
+  max-width: 50%;
+  min-height: 80px;
+  margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid #fbbaef;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.inputs-wrapper {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  column-gap: 40px;
+}
+
+.btn {
+  display: block;
+  width: 180px;
+  height: 40px;
+  margin: 0 auto;
+  border-radius: 6px;
+  background: linear-gradient(#abf2fb, #5addee);
+  color: #068292;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  font-family: "Roboto";
+  border: 0.5px solid #bbeaf0;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.input {
+  display: block;
+  width: 180px;
+  min-height: 35px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  text-align: center;
+}
+
+.input::placeholder {
+  color: black;
+  opacity: 0.8;
+  text-align: center;
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.card {
+  display: flex;
+  width: 200px;
+  height: 130px;
+  background: white;
+  border-radius: 10%;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transform-style: preserve-3d;
+}
+
+.card-translation, .card-word {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.card-word {
+  color: #516091;
+  background: #fffcff;
+}
+
+.card-translation {
+  color: #068292;
+  /* background: #068292; */
+  background: linear-gradient(#abf2fb, #5addee);
+}
+
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 50%;
+  margin: 20px auto;
+  align-items: center;
+  justify-content: center;
+  column-gap: 15px;
+  row-gap: 15px;
+  perspective: 500px;
+}
+
+.card__btn {
+  position: absolute;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 9px;
+  cursor: pointer;
+  color: gray;
+}
+
+.card__btn:hover {
+  color: black;
+}
+
+.cross {
+  top: 4px;
+  right: 4px;
+}
+
+.tick {
+  bottom: 4px;
+  right: 4px;
+}
